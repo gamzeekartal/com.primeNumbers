@@ -20,9 +20,8 @@ public class primeNumbers {
 	
 	public static boolean primeNumbers(int num){
 		
-		if (num<2){
+		if (num<2)
 			return false;
-		}
 		for(int i=3; i<num; i++){
 			if(num%i==0)
 				return false;	
