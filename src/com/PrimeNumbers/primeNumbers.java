@@ -13,7 +13,7 @@ public class primeNumbers {
 		int number = in.nextInt();
 			
 		for(int i=1; i<=number; i++){
-			if(primeNumbers.primeNumbers(i) == true)
+			if(primeNumbers(i) == true)
 				System.out.println(i + " is prime");
 		}
 	}
